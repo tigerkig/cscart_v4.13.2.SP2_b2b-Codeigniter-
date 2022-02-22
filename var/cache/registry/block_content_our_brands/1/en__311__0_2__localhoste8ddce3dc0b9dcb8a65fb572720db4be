@@ -1,0 +1,152 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:1698:"<script>
+(function(_, $) {
+    $.ceEvent('on', 'ce.commoninit', function(context) {
+        var elm = context.find('#scroll_list_27');
+
+        $('.ty-float-left:contains(.ty-scroller-list),.ty-float-right:contains(.ty-scroller-list)').css('width', '100%');
+
+        var item = 7,
+            // default setting of carousel
+            itemsDesktop = 4,
+            itemsDesktopSmall = 3;
+            itemsTablet = 2;
+
+        if (item > 3) {
+            itemsDesktop = item;
+            itemsDesktopSmall = item - 1;
+            itemsTablet = item - 2;
+        } else if (item == 1) {
+            itemsDesktop = itemsDesktopSmall = itemsTablet = 1;
+        } else {
+            itemsDesktop = item;
+            itemsDesktopSmall = itemsTablet = item - 1;
+        }
+
+        var desktop = [1199, itemsDesktop],
+            desktopSmall = [979, itemsDesktopSmall],
+            tablet = [768, itemsTablet],
+            mobile = [479, 1];
+
+        
+        if (elm.length) {
+            elm.owlCarousel({
+                direction: 'ltr',
+                items: item,
+                itemsDesktop: desktop,
+                itemsDesktopSmall: desktopSmall,
+                itemsTablet: tablet,
+                itemsMobile: mobile,
+                                scrollPerPage: true,
+                                                autoPlay: false,
+                                lazyLoad: true,
+                slideSpeed: 400,
+                stopOnHover: true,
+                                navigation: true,
+                navigationText: ['Prev', 'Next'],
+                                pagination: false,
+                        });
+            
+        }
+    });
+}(Tygh, Tygh.$));
+</script>";s:7:"content";s:7093:"        <div class="ty-mainbox-simple-container clearfix homepage-our-brands">
+                    <h2 class="ty-mainbox-simple-title">
+                
+                                    Brands
+                                
+
+            </h2>
+                <div class="ty-mainbox-simple-body">
+
+<div id="scroll_list_27" class="owl-carousel">
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart_v4.13.2.SP2_b2b/abbey-road-studios/">                <img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/75/75/feature_variant/1/79085903.jpg"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/feature_variant/1/79085903.jpg 2x"/>
+
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart_v4.13.2.SP2_b2b/acer/">                <img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/75/75/feature_variant/1/250px-Acer_2011.svg.png"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/feature_variant/1/250px-Acer_2011.svg.png 2x"/>
+
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart_v4.13.2.SP2_b2b/adidas/">                <img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/75/75/feature_variant/1/Adidas_Logo.svg.png"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/feature_variant/1/Adidas_Logo.svg.png 2x"/>
+
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart_v4.13.2.SP2_b2b/aiko/">                <img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/75/75/feature_variant/1/aiko_safe_t.gif"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/feature_variant/1/aiko_safe_t.gif 2x"/>
+
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart_v4.13.2.SP2_b2b/apple/">                <img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/75/75/feature_variant/1/Apple_logo_black.svg.png"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/feature_variant/1/Apple_logo_black.svg.png 2x"/>
+
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart_v4.13.2.SP2_b2b/arc-system-works/">                <img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/75/75/feature_variant/1/Arc_system_works.jpg"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/feature_variant/1/Arc_system_works.jpg 2x"/>
+
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart_v4.13.2.SP2_b2b/asus/">                <img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/75/75/feature_variant/1/200px-ASUS_Logo.svg.png"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/feature_variant/1/200px-ASUS_Logo.svg.png 2x"/>
+
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart_v4.13.2.SP2_b2b/camelback/">                <img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/75/75/feature_variant/1/CamelBak_Logo.jpg"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/feature_variant/1/CamelBak_Logo.jpg 2x"/>
+
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart_v4.13.2.SP2_b2b/capcom/">                <img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/75/75/feature_variant/1/220px-Capcom_logo.svg.png"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/feature_variant/1/220px-Capcom_logo.svg.png 2x"/>
+
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart_v4.13.2.SP2_b2b/casio/">                <img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/75/75/feature_variant/1/Casio_logo.svg.png"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/feature_variant/1/Casio_logo.svg.png 2x"/>
+
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart_v4.13.2.SP2_b2b/cleveland/">                <img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/75/75/feature_variant/1/Clevelandgolf_logo.png"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/feature_variant/1/Clevelandgolf_logo.png 2x"/>
+
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart_v4.13.2.SP2_b2b/cobra/">                <img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/75/75/feature_variant/1/cobra-logo.jpg"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/feature_variant/1/cobra-logo.jpg 2x"/>
+
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart_v4.13.2.SP2_b2b/concord-records/">                <img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/75/75/feature_variant/1/Concordjazzlogo.png"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/feature_variant/1/Concordjazzlogo.png 2x"/>
+
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart_v4.13.2.SP2_b2b/creative/">                <img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/75/75/feature_variant/1/Creative_Technology_logo.svg.png"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/feature_variant/1/Creative_Technology_logo.svg.png 2x"/>
+
+</a>
+            </div>
+    </div>
+<!-- Inline script moved to the bottom of the page -->
+
+</div>
+    </div>
+
+";}s:6:"expiry";i:0;}

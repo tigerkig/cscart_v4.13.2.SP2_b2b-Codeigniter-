@@ -1,0 +1,909 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:1824:"<script src="http://localhost/cscart_v4.13.2.SP2_b2b/js/tygh/product_image_gallery.js?ver=1635067650" ></script><script>
+(function(_, $) {
+    $.ceEvent('on', 'ce.commoninit', function(context) {
+        var elm = context.find('#scroll_list_23_61886c1e4a23e');
+
+        $('.ty-float-left:contains(.ty-scroller-list),.ty-float-right:contains(.ty-scroller-list)').css('width', '100%');
+
+        var item = 4,
+            // default setting of carousel
+            itemsDesktop = 4,
+            itemsDesktopSmall = 3;
+            itemsTablet = 2;
+
+        if (item > 3) {
+            itemsDesktop = item;
+            itemsDesktopSmall = item - 1;
+            itemsTablet = item - 2;
+        } else if (item == 1) {
+            itemsDesktop = itemsDesktopSmall = itemsTablet = 1;
+        } else {
+            itemsDesktop = item;
+            itemsDesktopSmall = itemsTablet = item - 1;
+        }
+
+        var desktop = [1199, itemsDesktop],
+            desktopSmall = [979, itemsDesktopSmall],
+            tablet = [768, itemsTablet],
+            mobile = [479, 1];
+
+        
+        if (elm.length) {
+            elm.owlCarousel({
+                direction: 'ltr',
+                items: item,
+                itemsDesktop: desktop,
+                itemsDesktopSmall: desktopSmall,
+                itemsTablet: tablet,
+                itemsMobile: mobile,
+                                scrollPerPage: true,
+                                                autoPlay: false,
+                                lazyLoad: true,
+                slideSpeed: 400,
+                stopOnHover: true,
+                                navigation: true,
+                navigationText: ['Prev', 'Next'],
+                                pagination: false,
+                        });
+            
+        }
+    });
+}(Tygh, Tygh.$));
+</script>";s:7:"content";s:26597:"        <div class="ty-mainbox-simple-container clearfix homepage-hotdeals">
+                    <h2 class="ty-mainbox-simple-title">
+                
+                                    Hot deals
+                                
+
+            </h2>
+                <div class="ty-mainbox-simple-body">
+
+        
+
+
+<!-- Inline script moved to the bottom of the page -->
+
+
+<div id="scroll_list_23_61886c1e4a23e" class="owl-carousel ty-scroller-list grid-list ty-scroller-advanced">
+            
+        <div class="ty-scroller-list__item">
+            
+                                                            
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left
+                ">
+                                        <form action="http://localhost/cscart_v4.13.2.SP2_b2b/" method="post" name="product_form_23000278" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="admin.php" />
+<input type="hidden" name="product_data[278][product_id]" value="278" />
+
+
+                    <div class="ty-grid-list__image">
+                                                                    
+                    <div class="ty-product-labels ty-product-labels--top-right   cm-reload-23000278" id="product_labels_update_23000278">
+                            
+                                                                            
+                    
+    <div  class="ty-product-labels__item   ty-product-labels__item--discount">
+        <div class="ty-product-labels__content">Save 60%</div>
+    </div>
+
+                        
+
+        
+            <!--product_labels_update_23000278--></div>
+            
+
+                        
+
+
+        <a href="http://localhost/cscart_v4.13.2.SP2_b2b/apparel/mens-clothing/t-shirt-color-white/">
+                        <img class="ty-pict     cm-image" id="det_img_23000278"  src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/detailed/1/t-6.jpg"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/300/300/detailed/1/t-6.jpg 2x"/>
+
+
+    </a>
+
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>
+            <a href="http://localhost/cscart_v4.13.2.SP2_b2b/apparel/mens-clothing/t-shirt-color-white/" class="product-title" title="T-shirt, Color: White" >T-shirt, Color: White</a>    
+
+</bdi>
+                    </div>
+
+                                            <div class="ty-grid-list__price ">
+                                                                    <span class="cm-reload-23000278" id="old_price_update_23000278">
+            
+                            <span class="ty-list-price ty-nowrap" id="line_list_price_23000278"><span class="ty-strike"><bdi><span class="ty-list-price ty-nowrap">$</span><span id="sec_list_price_23000278" class="ty-list-price ty-nowrap">75.00</span></bdi></span></span>
+                        
+
+        <!--old_price_update_23000278--></span>
+    
+                                                            <span class="cm-reload-23000278 ty-price-update" id="price_update_23000278">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-price" id="line_discounted_price_23000278"><bdi><span class="ty-price-num">$</span><span id="sec_discounted_price_23000278" class="ty-price-num">30.00</span></bdi></span>
+                            
+
+                        <!--price_update_23000278--></span>
+
+
+                                                            
+
+                                                            
+                        </div>
+                    
+                                                                <div class="grid-list__rating">
+                                
+
+    
+
+
+
+    
+
+
+                        </div>
+                    
+                    
+
+                    
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="1d4e0bb6239a355b27493ff137b59e6a" /></form>
+
+                </div>
+                        
+
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+            
+                                                            
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left
+                ">
+                                        <form action="http://localhost/cscart_v4.13.2.SP2_b2b/" method="post" name="product_form_23000280" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="admin.php" />
+<input type="hidden" name="product_data[280][product_id]" value="280" />
+
+
+                    <div class="ty-grid-list__image">
+                                                                    
+                    <div class="ty-product-labels ty-product-labels--top-right   cm-reload-23000280" id="product_labels_update_23000280">
+                            
+                                                                            
+                    
+    <div  class="ty-product-labels__item   ty-product-labels__item--discount">
+        <div class="ty-product-labels__content">Save 28%</div>
+    </div>
+
+                        
+
+        
+            <!--product_labels_update_23000280--></div>
+            
+
+                        
+
+
+        <a href="http://localhost/cscart_v4.13.2.SP2_b2b/apparel/mens-clothing/t-shirt-color-black/">
+                        <img class="ty-pict     cm-image" id="det_img_23000280"  src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/detailed/1/t-4.jpg"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/300/300/detailed/1/t-4.jpg 2x"/>
+
+
+    </a>
+
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>
+            <a href="http://localhost/cscart_v4.13.2.SP2_b2b/apparel/mens-clothing/t-shirt-color-black/" class="product-title" title="T-shirt, Color: Black" >T-shirt, Color: Black</a>    
+
+</bdi>
+                    </div>
+
+                                            <div class="ty-grid-list__price ">
+                                                                    <span class="cm-reload-23000280" id="old_price_update_23000280">
+            
+                            <span class="ty-list-price ty-nowrap" id="line_list_price_23000280"><span class="ty-strike"><bdi><span class="ty-list-price ty-nowrap">$</span><span id="sec_list_price_23000280" class="ty-list-price ty-nowrap">50.00</span></bdi></span></span>
+                        
+
+        <!--old_price_update_23000280--></span>
+    
+                                                            <span class="cm-reload-23000280 ty-price-update" id="price_update_23000280">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-price" id="line_discounted_price_23000280"><bdi><span class="ty-price-num">$</span><span id="sec_discounted_price_23000280" class="ty-price-num">36.00</span></bdi></span>
+                            
+
+                        <!--price_update_23000280--></span>
+
+
+                                                            
+
+                                                            
+                        </div>
+                    
+                                                                <div class="grid-list__rating">
+                                
+
+    
+
+                                
+                                
+            <a class="ty-product-review-reviews-stars__link "
+            href="http://localhost/cscart_v4.13.2.SP2_b2b/apparel/mens-clothing/t-shirt-color-black/?selected_section=product_reviews#product_reviews"
+            title="The product is rated 5 out of 5 stars. Show review rating."
+        >
+            <div class="ty-product-review-reviews-stars
+                        "
+            data-ca-product-review-reviews-stars-rating="5"
+            data-ca-product-review-reviews-stars-full="5"
+            data-ca-product-review-reviews-stars-is-half=""
+                    ></div>
+            </a>
+    
+
+
+
+    
+
+
+                        </div>
+                    
+                    
+
+                    
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="1d4e0bb6239a355b27493ff137b59e6a" /></form>
+
+                </div>
+                        
+
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+            
+                                                            
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left
+                ">
+                                        <form action="http://localhost/cscart_v4.13.2.SP2_b2b/" method="post" name="product_form_23000282" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="admin.php" />
+<input type="hidden" name="product_data[282][product_id]" value="282" />
+
+
+                    <div class="ty-grid-list__image">
+                                                                    
+                    <div class="ty-product-labels ty-product-labels--top-right   cm-reload-23000282" id="product_labels_update_23000282">
+                            
+                                                                            
+                    
+    <div  class="ty-product-labels__item   ty-product-labels__item--discount">
+        <div class="ty-product-labels__content">Save 63%</div>
+    </div>
+
+                        
+
+        
+            <!--product_labels_update_23000282--></div>
+            
+
+                        
+
+
+        <a href="http://localhost/cscart_v4.13.2.SP2_b2b/apparel/mens-clothing/t-shirt-color-blue/">
+                        <img class="ty-pict     cm-image" id="det_img_23000282"  src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/detailed/1/t-7.jpg"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/300/300/detailed/1/t-7.jpg 2x"/>
+
+
+    </a>
+
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>
+            <a href="http://localhost/cscart_v4.13.2.SP2_b2b/apparel/mens-clothing/t-shirt-color-blue/" class="product-title" title="T-shirt, Color: Blue" >T-shirt, Color: Blue</a>    
+
+</bdi>
+                    </div>
+
+                                            <div class="ty-grid-list__price ">
+                                                                    <span class="cm-reload-23000282" id="old_price_update_23000282">
+            
+                            <span class="ty-list-price ty-nowrap" id="line_list_price_23000282"><span class="ty-strike"><bdi><span class="ty-list-price ty-nowrap">$</span><span id="sec_list_price_23000282" class="ty-list-price ty-nowrap">75.00</span></bdi></span></span>
+                        
+
+        <!--old_price_update_23000282--></span>
+    
+                                                            <span class="cm-reload-23000282 ty-price-update" id="price_update_23000282">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-price" id="line_discounted_price_23000282"><bdi><span class="ty-price-num">$</span><span id="sec_discounted_price_23000282" class="ty-price-num">27.99</span></bdi></span>
+                            
+
+                        <!--price_update_23000282--></span>
+
+
+                                                            
+
+                                                            
+                        </div>
+                    
+                                                                <div class="grid-list__rating">
+                                
+
+    
+
+                                
+                                
+            <a class="ty-product-review-reviews-stars__link "
+            href="http://localhost/cscart_v4.13.2.SP2_b2b/apparel/mens-clothing/t-shirt-color-blue/?selected_section=product_reviews#product_reviews"
+            title="The product is rated 3.5 out of 5 stars. Show review rating."
+        >
+            <div class="ty-product-review-reviews-stars
+                        "
+            data-ca-product-review-reviews-stars-rating="4"
+            data-ca-product-review-reviews-stars-full="3"
+            data-ca-product-review-reviews-stars-is-half="1"
+                    ></div>
+            </a>
+    
+
+
+
+    
+
+
+                        </div>
+                    
+                    
+
+                    
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="1d4e0bb6239a355b27493ff137b59e6a" /></form>
+
+                </div>
+                        
+
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+            
+                                                            
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left
+                ">
+                                        <form action="http://localhost/cscart_v4.13.2.SP2_b2b/" method="post" name="product_form_23000247" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="admin.php" />
+<input type="hidden" name="product_data[247][product_id]" value="247" />
+
+
+                    <div class="ty-grid-list__image">
+                                                                    
+            
+
+                        
+
+
+        <a href="http://localhost/cscart_v4.13.2.SP2_b2b/electronics/computers/tablets/nokia-n1-pad-7.9-quad-core-64bit-2.3ghz-2gb-32gb-android-5.0/">
+                        <img class="ty-pict     cm-image" id="det_img_23000247"  src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/detailed/1/nokia_n1_perspectives_-_app.jpg"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/300/300/detailed/1/nokia_n1_perspectives_-_app.jpg 2x"/>
+
+
+    </a>
+
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>
+            <a href="http://localhost/cscart_v4.13.2.SP2_b2b/electronics/computers/tablets/nokia-n1-pad-7.9-quad-core-64bit-2.3ghz-2gb-32gb-android-5.0/" class="product-title" title="Nokia N1 Pad 7.9&quot; Quad-Core 64bit 2.3GHz 2GB 32GB Android 5.0" >Nokia N1 Pad 7.9" Quad-Core 64bit 2.3GHz ...</a>    
+
+</bdi>
+                    </div>
+
+                                            <div class="ty-grid-list__price ">
+                                                                    <span class="cm-reload-23000247" id="old_price_update_23000247">
+            
+                        
+
+        <!--old_price_update_23000247--></span>
+    
+                                                            <span class="cm-reload-23000247 ty-price-update" id="price_update_23000247">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-price" id="line_discounted_price_23000247"><bdi><span class="ty-price-num">$</span><span id="sec_discounted_price_23000247" class="ty-price-num">329.49</span></bdi></span>
+                            
+
+                        <!--price_update_23000247--></span>
+
+
+                                                            
+
+                                                            
+                        </div>
+                    
+                                                                <div class="grid-list__rating">
+                                
+
+    
+
+                                
+                                
+            <a class="ty-product-review-reviews-stars__link "
+            href="http://localhost/cscart_v4.13.2.SP2_b2b/electronics/computers/tablets/nokia-n1-pad-7.9-quad-core-64bit-2.3ghz-2gb-32gb-android-5.0/?selected_section=product_reviews#product_reviews"
+            title="The product is rated 2.7 out of 5 stars. Show review rating."
+        >
+            <div class="ty-product-review-reviews-stars
+                        "
+            data-ca-product-review-reviews-stars-rating="3"
+            data-ca-product-review-reviews-stars-full="2"
+            data-ca-product-review-reviews-stars-is-half="1"
+                    ></div>
+            </a>
+    
+
+
+
+    
+
+
+                        </div>
+                    
+                    
+
+                    
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="1d4e0bb6239a355b27493ff137b59e6a" /></form>
+
+                </div>
+                        
+
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+            
+                                                            
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left
+                ">
+                                        <form action="http://localhost/cscart_v4.13.2.SP2_b2b/" method="post" name="product_form_23000248" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="admin.php" />
+<input type="hidden" name="product_data[248][product_id]" value="248" />
+
+
+                    <div class="ty-grid-list__image">
+                                                                    
+            
+
+                        
+
+
+        <a href="http://localhost/cscart_v4.13.2.SP2_b2b/video-games/x-box-one/x-box-one/">
+                        <img class="ty-pict     cm-image" id="det_img_23000248"  src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/detailed/1/i.jpg"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/300/300/detailed/1/i.jpg 2x"/>
+
+
+    </a>
+
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>
+            <a href="http://localhost/cscart_v4.13.2.SP2_b2b/video-games/x-box-one/x-box-one/" class="product-title" title="X-Box One" >X-Box One</a>    
+
+</bdi>
+                    </div>
+
+                                            <div class="ty-grid-list__price ">
+                                                                    <span class="cm-reload-23000248" id="old_price_update_23000248">
+            
+                        
+
+        <!--old_price_update_23000248--></span>
+    
+                                                            <span class="cm-reload-23000248 ty-price-update" id="price_update_23000248">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-price" id="line_discounted_price_23000248"><bdi><span class="ty-price-num">$</span><span id="sec_discounted_price_23000248" class="ty-price-num">372.27</span></bdi></span>
+                            
+
+                        <!--price_update_23000248--></span>
+
+
+                                                            
+
+                                                            
+                        </div>
+                    
+                                                                <div class="grid-list__rating">
+                                
+
+    
+
+                                
+                                
+            <a class="ty-product-review-reviews-stars__link "
+            href="http://localhost/cscart_v4.13.2.SP2_b2b/video-games/x-box-one/x-box-one/?selected_section=product_reviews#product_reviews"
+            title="The product is rated 4.3 out of 5 stars. Show review rating."
+        >
+            <div class="ty-product-review-reviews-stars
+                        "
+            data-ca-product-review-reviews-stars-rating="4"
+            data-ca-product-review-reviews-stars-full="4"
+            data-ca-product-review-reviews-stars-is-half="1"
+                    ></div>
+            </a>
+    
+
+
+
+    
+
+
+                        </div>
+                    
+                    
+
+                    
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="1d4e0bb6239a355b27493ff137b59e6a" /></form>
+
+                </div>
+                        
+
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+            
+                                                            
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left
+                ">
+                                        <form action="http://localhost/cscart_v4.13.2.SP2_b2b/" method="post" name="product_form_23000241" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="admin.php" />
+<input type="hidden" name="product_data[241][product_id]" value="241" />
+
+
+                    <div class="ty-grid-list__image">
+                                                                    
+            
+
+                        
+
+
+        <a href="http://localhost/cscart_v4.13.2.SP2_b2b/electronics/computers/tablets/apple-ipad-with-retina-display-wi-fi-32gb-white/">
+                        <img class="ty-pict     cm-image" id="det_img_23000241"  src="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/150/150/detailed/0/ipad-white-1.jpg"  alt="" title="" srcset="http://localhost/cscart_v4.13.2.SP2_b2b/images/thumbnails/300/300/detailed/0/ipad-white-1.jpg 2x"/>
+
+
+    </a>
+
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>
+            <a href="http://localhost/cscart_v4.13.2.SP2_b2b/electronics/computers/tablets/apple-ipad-with-retina-display-wi-fi-32gb-white/" class="product-title" title="Apple® - iPad® with Retina® display Wi-Fi - 32GB - White" >Apple® - iPad® with Retina® display Wi-Fi...</a>    
+
+</bdi>
+                    </div>
+
+                                            <div class="ty-grid-list__price ">
+                                                                    <span class="cm-reload-23000241" id="old_price_update_23000241">
+            
+                        
+
+        <!--old_price_update_23000241--></span>
+    
+                                                            <span class="cm-reload-23000241 ty-price-update" id="price_update_23000241">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-price" id="line_discounted_price_23000241"><bdi><span class="ty-price-num">$</span><span id="sec_discounted_price_23000241" class="ty-price-num">499.00</span></bdi></span>
+                            
+
+                        <!--price_update_23000241--></span>
+
+
+                                                            
+
+                                                            
+                        </div>
+                    
+                                                                <div class="grid-list__rating">
+                                
+
+    
+
+                                
+                                
+            <a class="ty-product-review-reviews-stars__link "
+            href="http://localhost/cscart_v4.13.2.SP2_b2b/electronics/computers/tablets/apple-ipad-with-retina-display-wi-fi-32gb-white/?selected_section=product_reviews#product_reviews"
+            title="The product is rated 5 out of 5 stars. Show review rating."
+        >
+            <div class="ty-product-review-reviews-stars
+                        "
+            data-ca-product-review-reviews-stars-rating="5"
+            data-ca-product-review-reviews-stars-full="5"
+            data-ca-product-review-reviews-stars-is-half=""
+                    ></div>
+            </a>
+    
+
+
+
+    
+
+
+                        </div>
+                    
+                    
+
+                    
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="1d4e0bb6239a355b27493ff137b59e6a" /></form>
+
+                </div>
+                        
+
+        </div>
+        
+
+    </div>
+
+<!-- Inline script moved to the bottom of the page -->
+
+</div>
+    </div>
+
+";}s:6:"expiry";i:0;}

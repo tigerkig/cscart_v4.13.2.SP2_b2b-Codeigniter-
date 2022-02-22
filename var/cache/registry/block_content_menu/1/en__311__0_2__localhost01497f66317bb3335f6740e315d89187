@@ -1,0 +1,35 @@
+a:2:{s:4:"data";a:1:{s:7:"content";s:1417:"        <div class="ty-footer footer-menu-create-orders ty-float-left">
+        <h2 class="ty-footer-general__header  cm-combination" id="sw_footer-general_16">
+            
+                            <span>Create order</span>
+                        
+
+        <i class="ty-footer-menu__icon-open ty-icon-down-open"></i>
+        <i class="ty-footer-menu__icon-hide ty-icon-up-open"></i>
+        </h2>
+        <div class="ty-footer-general__body" id="footer-general_16">
+
+
+    
+        <ul id="text_links_16" class="ty-text-links">
+                            <li class="ty-text-links__item ty-level-0">
+                    <a class="ty-text-links__a"
+                                                    href="http://localhost/cscart_v4.13.2.SP2_b2b/payment-and-shipping/"
+                                                                    >
+                        Delivery and payment
+                    </a>
+                                    </li>
+                            <li class="ty-text-links__item ty-level-0">
+                    <a class="ty-text-links__a"
+                                                    href="http://localhost/cscart_v4.13.2.SP2_b2b/returns-and-exchanges/"
+                                                                    >
+                        Returns
+                    </a>
+                                    </li>
+                    </ul>
+
+    </div>
+    </div>
+
+
+";}s:6:"expiry";i:0;}
